@@ -24,6 +24,7 @@ body{
 }
 .text{
     margin-right: 5%; 
+    margin-left: 3%;
     width: 70%;
     padding: 2.1%;
     border-radius: 5px;
@@ -34,12 +35,18 @@ body{
 .text:hover{
     border-color: blue;
 }
-.container{
-    background-color: white;
-    width: fit-content;
-    padding: 20px;
+.container {
+    width: 40%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    min-height: 100px;
+    min-width: 300px;
+    background: whitesmoke;
     border-radius: 10px;
-}
+    padding-top: 0.3%;
+  }
 .push{
     background-color: #4d90f3;
     border-color:  #4d90f3;
